@@ -71,7 +71,7 @@ Conditions:
         float(InputStartValue)
     except:
         print("Error while converting \"InputStartValue\" to float. Please read \"Log.txt\" to view the Error, or add a New Issue on GitHub in this Repository.")
-        Log = open("Math\Log.txt", "w")
+        Log = open(r"Log.txt", "w")
         Log.write(str(Except))
         Log.close()
         Exit = input("\n\nPress any key to continue...")
