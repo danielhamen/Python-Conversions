@@ -77,8 +77,13 @@ Conditions:
         Exit = input("\n\nPress any key to continue...")
         exit()
 
-    InputStartUnit = str(input("What is the start unit: "))
-    InputEndUnit = str(input(f"What would you like to convert {InputStartValue} {InputStartUnit}(s) to (Unit): "))
+    InputStartUnit = str(input("What is the start unit (To view all units, type \"?\"): "))
+    if str(InputStartUnit) == "?":
+        print("\nUnits:")
+        GetUnits(False)
+        InputStartUnit = str(input("Enter the start unit: "))
+
+    InputEndUnit = str(input(f"What would you like to convert {InputStartValue} {InputStartUnit}(s) to (End-Unit): "))
 
     C = Conversions(InputStartUnit, InputStartValue, InputEndUnit)
     C.Convert()
