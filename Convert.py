@@ -1,4 +1,4 @@
-from __init__ import *
+from lib.__init__ import *
 
 def GetUnits(Return=False):
     """
@@ -43,9 +43,9 @@ class Conversions:
             ```EndUnit``` ```(str)```: The end Unit of the conversion
         """
 
-        self.StartUnit = StartUnit
+        self.StartUnit = str(StartUnit).lower()
         self.StartValue = StartValue
-        self.EndUnit = EndUnit
+        self.EndUnit = str(EndUnit).lower()
         self.EndValue = None
         self.Type = ""
         self.Summary = ""
