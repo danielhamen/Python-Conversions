@@ -29,3 +29,6 @@ With this module, you can use the following units:
 > >>> 0.5681102362204724
 > >>> 14.43 millimeters is 0.5681102362204724 inch
 > ```
+
+## How to use the quick conversion program:
+> Run ```Program/Program.exe```
