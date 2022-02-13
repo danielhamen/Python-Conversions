@@ -13,4 +13,4 @@ print(C.EndValue)
 
 ```
 
-* To view all possible units, add: ```GetUnits(True)``` to your script. If you set the argument to ```True```, the script will ```print()``` all the units. Change to ```False``` if you want to return the Units *
+<b>To view all possible units, add: ```GetUnits(True)``` to your script. If you set the argument to ```True```, the script will ```print()``` all the units. Change to ```False``` if you want to return the Units</b>
