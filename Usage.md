@@ -13,7 +13,4 @@ print(C.EndValue)
 
 ```
 
-# ```START_UNIT``` and ```END_UNIT```
-For the arguments ```START_UNIT``` and ```END_UNIT```, you can add any length conversion. The good thing about this module is that for the unit arguments, you can write any form of a unit. For example, if you would like to convert Millimeters, to Centimeters, in Canada, "Millimeter" is spelled "Millimeter", but in the United States, "Millimeter" is spelled "Millimetre" so you might be confused about which one you should write in the argument. For this module, if you want to convert from Millimeters, you can write ```mm```, ```Mm```, ```Millimeter```, ```millimetre```, ```milimetre```, etc!
-
-<b>Currently this module only supports Length conversions, but hopefully in the future, I will add more types such as Time, Volume, etc!</b>
+* To view all possible units, add: ```GetUnits(True)``` to your script. If you set the argument to ```True```, the script will ```print()``` all the units. Change to ```False``` if you want to return the Units *
