@@ -1,5 +1,5 @@
 # Python-Conversions
-A quick way to convert units in Python. For information on how to use this module, please read ```Usage.md```.
+A quick way to convert units in Python. For in-depth information on how to use this module, please read ```Usage.md```.
 
 With this module, you can use the following units:
 - Inch            :       ```inch```
