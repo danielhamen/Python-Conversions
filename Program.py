@@ -7,7 +7,7 @@ def Start():
         pass
 
     elif Accept == "?":
-        TermsAndConditions = open(r"Math\lib\TermsAndCondition.txt", "r")
+        TermsAndConditions = open(r"lib\TermsAndCondition.txt", "r")
         print(str(TermsAndConditions.read()))
         TermsAndConditions.close()
 
