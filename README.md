@@ -30,4 +30,4 @@ With this module, you can use the following units:
 > >>> 14.43 millimeters is 0.5681102362204724 inch
 > ```
 
-## To  use the quick conversion program, run ```Program/Program.exe```:
+## To  use the quick conversion program, run ```Program.py``` or ```Program/Program.exe```:
